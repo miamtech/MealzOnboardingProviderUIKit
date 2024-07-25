@@ -7,6 +7,14 @@
 
 import UIKit
 
+// TODO: 1. Import Mealz Repositories
+//import mealzcore
+//import MealziOSSDK
+//import MealzUIiOSSDK
+//import MealzNaviOSSDK
+//import MarmitonUIMealzIOS
+
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
