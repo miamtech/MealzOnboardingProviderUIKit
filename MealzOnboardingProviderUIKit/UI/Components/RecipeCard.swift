@@ -22,7 +22,7 @@ class PretendRecipe {
 }
 
 protocol RecipeCardViewDelegate: AnyObject {
-    func didTapAddToCartButton(recipeId: String)
+    func didTapSeeDetailsButton(recipeId: String)
 }
 
 
@@ -134,7 +134,7 @@ class RecipeCardView: UIView {
     
     @objc func launchRecipeDetails() {
         if let recipeId = self.recipe?.externalId {
-            delegate?.didTapAddToCartButton(recipeId: recipeId)
+            delegate?.didTapSeeDetailsButton(recipeId: recipeId)
         }
     }
     

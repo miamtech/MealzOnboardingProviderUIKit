@@ -70,7 +70,7 @@ class RecipesViewController: UIViewController, RecipeCardViewDelegate {
         ])
     }
     
-    func didTapAddToCartButton(recipeId: String) {
+    func didTapSeeDetailsButton(recipeId: String) {
         let newVC = UIViewController()
         present(newVC, animated: true, completion: nil)
     }
