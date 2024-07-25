@@ -21,15 +21,15 @@ class BasketViewController: UIViewController {
         super.viewDidLoad()
         
         // TODO: 8. Checkout
-        // TODO 8a. Create function to show the checkout
-        // TODO 8b. Use MealzMarmiton Webview
-        // TODO 8c. Pass in function to MyBasketFeatureConstructor
         
         mealzMyBasket = MealzMyBasketFeatureUIKit(
             hideTitles: true,
             myBasketContructor: MyBasketFeatureConstructor(
                 navigateToCatalog: { print("navigate to catalog") },
-                navigateToCheckout: { _ in print("navigate to checkout") })
+                navigateToCheckout: { urlString in
+                    // TODO 8c. Pass in function to MyBasketFeatureConstructor
+                    showCheckout(urlString)
+                })
         )
         
         if let mealzMyBasket {
@@ -54,4 +54,26 @@ class BasketViewController: UIViewController {
         ])
     }
 
+}
+
+// TODO 8a. Create function to show the checkout
+let showCheckout: (_ url: String?) -> Void = { urlString in
+    
+    guard let urlString = urlString else { return }
+    guard let url = URL(string: urlString) else { return }
+    // TODO 8b. Use MealzMarmiton Webview
+    let viewController = TransferBasketFeature(transferBasketUrl: url, retailerName: "toto").toUIKit()
+    viewController.modalPresentationStyle = .overCurrentContext
+    
+    if let sceneDelegate = UIApplication.shared.connectedScenes
+        .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene,
+        let keyWindow = sceneDelegate.windows.first(where: { $0.isKeyWindow }),
+        let rootViewController = keyWindow.rootViewController
+    {
+        var topViewController = rootViewController
+        while let presentedViewController = topViewController.presentedViewController {
+            topViewController = presentedViewController
+        }
+        topViewController.present(viewController, animated: true)
+    }
 }
