@@ -76,7 +76,12 @@ class RecipesViewController: UIViewController, RecipeCardViewDelegate {
     
     func didTapSeeDetailsButton(recipeId: String) {
         // 4b. Add Recipe Details in 2nd page
-        let newVC = MealzRecipeDetailsFeatureUIKit(recipeId: recipeId)
+        let newVC = MealzRecipeDetailsFeatureUIKit(
+            recipeId: recipeId,
+            recipeDetailsConstructor: MealzViewConfig.recipeDetailsConfig({
+                self.tabBarController?.selectedIndex = 1
+            })
+        )
         present(newVC, animated: true, completion: nil)
     }
 }

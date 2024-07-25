@@ -24,12 +24,8 @@ class BasketViewController: UIViewController {
         
         mealzMyBasket = MealzMyBasketFeatureUIKit(
             hideTitles: true,
-            myBasketContructor: MyBasketFeatureConstructor(
-                navigateToCatalog: { print("navigate to catalog") },
-                navigateToCheckout: { urlString in
-                    // TODO 8c. Pass in function to MyBasketFeatureConstructor
-                    showCheckout(urlString)
-                })
+            recipeDetailsConstructor: MealzViewConfig.recipeDetailsConfig({}),
+            myBasketContructor: MealzViewConfig.myBasketConfig
         )
         
         if let mealzMyBasket {
