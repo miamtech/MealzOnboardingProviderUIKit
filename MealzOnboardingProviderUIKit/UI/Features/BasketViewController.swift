@@ -7,6 +7,10 @@
 
 import UIKit
 
+// TODO: 6. Show MyBasket
+// TODO 6a. Import Nav
+// TODO 6b. Add MyBasket component
+
 class BasketViewController: UIViewController {
     
     let basketLabel = UILabel()
