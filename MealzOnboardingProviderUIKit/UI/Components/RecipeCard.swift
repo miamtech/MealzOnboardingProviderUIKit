@@ -138,6 +138,12 @@ class RecipeCardView: UIView {
         }
     }
     
+    // TODO: 7. Get Price for Recipe
+    // TODO 7a. Import Mealz package
+    // TODO 7b. Call Mealz function to get price
+    // TODO 7c. Update title when price returned
+    // TODO 7d. Prohibit button called if price returned
+    
     @objc func getPrice() {
         self.priceOfRecipe = "45"
         DispatchQueue.main.async { [weak self] in
