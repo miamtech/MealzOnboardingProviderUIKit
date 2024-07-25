@@ -6,19 +6,36 @@
 //
 
 import UIKit
+// TODO 6a. Import Nav
+import MealzNaviOSSDK
 
 // TODO: 6. Show MyBasket
-// TODO 6a. Import Nav
-// TODO 6b. Add MyBasket component
 
 class BasketViewController: UIViewController {
     
     let basketLabel = UILabel()
+    // TODO 6b. Add MyBasket component
+    var mealzMyBasket: MealzMyBasketFeatureUIKit?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupLabelView()
+        mealzMyBasket = MealzMyBasketFeatureUIKit(
+            hideTitles: true,
+            myBasketContructor: MyBasketFeatureConstructor(
+                navigateToCatalog: { print("navigate to catalog") },
+                navigateToCheckout: { _ in print("navigate to checkout") })
+        )
+        
+        if let mealzMyBasket {
+            // Add the custom navigation controller as a child view controller
+            addChild(mealzMyBasket)
+            mealzMyBasket.view.frame = self.view.bounds
+            view.addSubview(mealzMyBasket.view)
+            mealzMyBasket.didMove(toParent: self)
+        }
+        
+//        setupLabelView()
     }
 
     func setupLabelView() {
