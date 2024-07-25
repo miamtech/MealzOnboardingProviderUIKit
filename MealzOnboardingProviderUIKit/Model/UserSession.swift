@@ -8,6 +8,8 @@
 import Foundation
 
 class UserSession: ObservableObject {
+    public static let sharedInstance = UserSession()
+    
     @Published var user: PretendUser?
     
     let userRepository = PretendUserRepository()
