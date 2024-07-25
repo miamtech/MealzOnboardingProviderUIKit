@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26076E132C524E4F005AD0D9 /* MarmitonUIMealzIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 26076E122C524E4F005AD0D9 /* MarmitonUIMealzIOS */; };
+		26076E162C52518F005AD0D9 /* MealzManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26076E152C52518F005AD0D9 /* MealzManager.swift */; };
 		2618946A2C523ABD0076BC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894692C523ABD0076BC65 /* AppDelegate.swift */; };
 		2618946C2C523ABD0076BC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618946B2C523ABD0076BC65 /* SceneDelegate.swift */; };
 		261894712C523ABD0076BC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2618946F2C523ABD0076BC65 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26076E152C52518F005AD0D9 /* MealzManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzManager.swift; sourceTree = "<group>"; };
 		261894662C523ABD0076BC65 /* MealzOnboardingProviderUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealzOnboardingProviderUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261894692C523ABD0076BC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2618946B2C523ABD0076BC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26076E142C525184005AD0D9 /* Mealz */ = {
+			isa = PBXGroup;
+			children = (
+				26076E152C52518F005AD0D9 /* MealzManager.swift */,
+			);
+			path = Mealz;
+			sourceTree = "<group>";
+		};
 		2618945D2C523ABD0076BC65 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		261894682C523ABD0076BC65 /* MealzOnboardingProviderUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				26076E142C525184005AD0D9 /* Mealz */,
 				2618948C2C523DF50076BC65 /* Utils */,
 				261894882C523D3E0076BC65 /* UI */,
 				2618947D2C523B1E0076BC65 /* DataSource */,
@@ -226,6 +237,7 @@
 				261894842C523B2D0076BC65 /* UserSession.swift in Sources */,
 				261894852C523B2D0076BC65 /* PretendUser.swift in Sources */,
 				261894862C523B2D0076BC65 /* PretendUserRepository.swift in Sources */,
+				26076E162C52518F005AD0D9 /* MealzManager.swift in Sources */,
 				261894872C523B2D0076BC65 /* PretendUserLocalDS.swift in Sources */,
 				2618948E2C523E130076BC65 /* UIImageView.Extension.swift in Sources */,
 				2618948B2C523D570076BC65 /* RecipeCard.swift in Sources */,
