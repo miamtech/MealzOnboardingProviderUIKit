@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		2618946A2C523ABD0076BC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894692C523ABD0076BC65 /* AppDelegate.swift */; };
 		2618946C2C523ABD0076BC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618946B2C523ABD0076BC65 /* SceneDelegate.swift */; };
-		2618946E2C523ABD0076BC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618946D2C523ABD0076BC65 /* ViewController.swift */; };
 		261894712C523ABD0076BC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2618946F2C523ABD0076BC65 /* Main.storyboard */; };
 		261894732C523AC10076BC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261894722C523AC10076BC65 /* Assets.xcassets */; };
 		261894762C523AC10076BC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261894742C523AC10076BC65 /* LaunchScreen.storyboard */; };
+		261894842C523B2D0076BC65 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894802C523B290076BC65 /* UserSession.swift */; };
+		261894852C523B2D0076BC65 /* PretendUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894812C523B290076BC65 /* PretendUser.swift */; };
+		261894862C523B2D0076BC65 /* PretendUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894832C523B290076BC65 /* PretendUserRepository.swift */; };
+		261894872C523B2D0076BC65 /* PretendUserLocalDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618947E2C523B1E0076BC65 /* PretendUserLocalDS.swift */; };
+		2618948B2C523D570076BC65 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618948A2C523D570076BC65 /* RecipeCard.swift */; };
+		2618948E2C523E130076BC65 /* UIImageView.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618948D2C523E130076BC65 /* UIImageView.Extension.swift */; };
+		261894912C5248D00076BC65 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894902C5248D00076BC65 /* RecipesViewController.swift */; };
+		261894932C5248F80076BC65 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894922C5248F80076BC65 /* BasketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		261894662C523ABD0076BC65 /* MealzOnboardingProviderUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealzOnboardingProviderUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261894692C523ABD0076BC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2618946B2C523ABD0076BC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2618946D2C523ABD0076BC65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		261894702C523ABD0076BC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		261894722C523AC10076BC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		261894752C523AC10076BC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		261894772C523AC10076BC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2618947E2C523B1E0076BC65 /* PretendUserLocalDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUserLocalDS.swift; sourceTree = "<group>"; };
+		261894802C523B290076BC65 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		261894812C523B290076BC65 /* PretendUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUser.swift; sourceTree = "<group>"; };
+		261894832C523B290076BC65 /* PretendUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUserRepository.swift; sourceTree = "<group>"; };
+		2618948A2C523D570076BC65 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		2618948D2C523E130076BC65 /* UIImageView.Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.Extension.swift; sourceTree = "<group>"; };
+		261894902C5248D00076BC65 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		261894922C5248F80076BC65 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,78 @@
 		261894682C523ABD0076BC65 /* MealzOnboardingProviderUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				2618948C2C523DF50076BC65 /* Utils */,
+				261894882C523D3E0076BC65 /* UI */,
+				2618947D2C523B1E0076BC65 /* DataSource */,
+				261894822C523B290076BC65 /* Repository */,
+				2618947F2C523B290076BC65 /* Model */,
 				261894692C523ABD0076BC65 /* AppDelegate.swift */,
 				2618946B2C523ABD0076BC65 /* SceneDelegate.swift */,
-				2618946D2C523ABD0076BC65 /* ViewController.swift */,
 				2618946F2C523ABD0076BC65 /* Main.storyboard */,
 				261894722C523AC10076BC65 /* Assets.xcassets */,
 				261894742C523AC10076BC65 /* LaunchScreen.storyboard */,
 				261894772C523AC10076BC65 /* Info.plist */,
 			);
 			path = MealzOnboardingProviderUIKit;
+			sourceTree = "<group>";
+		};
+		2618947D2C523B1E0076BC65 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2618947E2C523B1E0076BC65 /* PretendUserLocalDS.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2618947F2C523B290076BC65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				261894802C523B290076BC65 /* UserSession.swift */,
+				261894812C523B290076BC65 /* PretendUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		261894822C523B290076BC65 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				261894832C523B290076BC65 /* PretendUserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		261894882C523D3E0076BC65 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2618948F2C5248C00076BC65 /* Features */,
+				261894892C523D430076BC65 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		261894892C523D430076BC65 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2618948A2C523D570076BC65 /* RecipeCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2618948C2C523DF50076BC65 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2618948D2C523E130076BC65 /* UIImageView.Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2618948F2C5248C00076BC65 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				261894902C5248D00076BC65 /* RecipesViewController.swift */,
+				261894922C5248F80076BC65 /* BasketViewController.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2618946E2C523ABD0076BC65 /* ViewController.swift in Sources */,
+				261894842C523B2D0076BC65 /* UserSession.swift in Sources */,
+				261894852C523B2D0076BC65 /* PretendUser.swift in Sources */,
+				261894862C523B2D0076BC65 /* PretendUserRepository.swift in Sources */,
+				261894872C523B2D0076BC65 /* PretendUserLocalDS.swift in Sources */,
+				2618948E2C523E130076BC65 /* UIImageView.Extension.swift in Sources */,
+				2618948B2C523D570076BC65 /* RecipeCard.swift in Sources */,
+				261894932C5248F80076BC65 /* BasketViewController.swift in Sources */,
 				2618946A2C523ABD0076BC65 /* AppDelegate.swift in Sources */,
+				261894912C5248D00076BC65 /* RecipesViewController.swift in Sources */,
 				2618946C2C523ABD0076BC65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
