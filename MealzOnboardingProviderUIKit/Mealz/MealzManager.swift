@@ -34,4 +34,10 @@ public class MealzManager: ObservableObject {
     func updateUserId(userId: String?) {
         Mealz.shared.user.updateUserId(userId: userId, authorization: Authorization.userId)
     }
+    
+    // TODO: 5. Set chooseStoreRedirct
+    // TODO 5a. create function to choose store
+    // TODO 5b. use MealzWebview
+    // TODO 5c. update MealzManager
+
 }
