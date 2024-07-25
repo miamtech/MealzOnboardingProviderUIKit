@@ -7,6 +7,10 @@
 
 import UIKit
 
+// TODO 4. Add Mealz Recipe Details
+// 4a. import Nav
+// 4b. Add Recipe Details in 2nd page
+
 class RecipesViewController: UIViewController, RecipeCardViewDelegate {
     
     let scrollView = UIScrollView()
