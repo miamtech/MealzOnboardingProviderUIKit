@@ -20,6 +20,11 @@ class BasketViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // TODO: 8. Checkout
+        // TODO 8a. Create function to show the checkout
+        // TODO 8b. Use MealzMarmiton Webview
+        // TODO 8c. Pass in function to MyBasketFeatureConstructor
+        
         mealzMyBasket = MealzMyBasketFeatureUIKit(
             hideTitles: true,
             myBasketContructor: MyBasketFeatureConstructor(
