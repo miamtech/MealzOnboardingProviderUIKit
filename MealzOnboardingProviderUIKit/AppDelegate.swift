@@ -15,8 +15,6 @@ import MealzNaviOSSDK
 import MarmitonUIMealzIOS
 
 // TODO: 2. Create MealzManager file
-// 2a. Create MealzManager File
-// 2b. Init Mealz in AppDelegate
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 2b. Init Mealz in AppDelegate
+        let _ = MealzManager.sharedInstance
         return true
     }
 
