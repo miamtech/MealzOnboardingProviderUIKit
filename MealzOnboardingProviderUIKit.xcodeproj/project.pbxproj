@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26076E132C524E4F005AD0D9 /* MarmitonUIMealzIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 26076E122C524E4F005AD0D9 /* MarmitonUIMealzIOS */; };
 		2618946A2C523ABD0076BC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894692C523ABD0076BC65 /* AppDelegate.swift */; };
 		2618946C2C523ABD0076BC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618946B2C523ABD0076BC65 /* SceneDelegate.swift */; };
 		261894712C523ABD0076BC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2618946F2C523ABD0076BC65 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26076E132C524E4F005AD0D9 /* MarmitonUIMealzIOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +162,9 @@
 			dependencies = (
 			);
 			name = MealzOnboardingProviderUIKit;
+			packageProductDependencies = (
+				26076E122C524E4F005AD0D9 /* MarmitonUIMealzIOS */,
+			);
 			productName = MealzOnboardingProviderUIKit;
 			productReference = 261894662C523ABD0076BC65 /* MealzOnboardingProviderUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 2618945D2C523ABD0076BC65;
+			packageReferences = (
+				26076E112C524E4F005AD0D9 /* XCLocalSwiftPackageReference "../../MarmitonUIMealzIOS" */,
+			);
 			productRefGroup = 261894672C523ABD0076BC65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -447,6 +455,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		26076E112C524E4F005AD0D9 /* XCLocalSwiftPackageReference "../../MarmitonUIMealzIOS" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../MarmitonUIMealzIOS;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26076E122C524E4F005AD0D9 /* MarmitonUIMealzIOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarmitonUIMealzIOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2618945E2C523ABD0076BC65 /* Project object */;
 }
