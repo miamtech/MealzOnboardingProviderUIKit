@@ -14,6 +14,9 @@ import MealzUIiOSSDK
 import MealzNaviOSSDK
 import MarmitonUIMealzIOS
 
+// TODO: 2. Create MealzManager file
+// 2a. Create MealzManager File
+// 2b. Init Mealz in AppDelegate
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
