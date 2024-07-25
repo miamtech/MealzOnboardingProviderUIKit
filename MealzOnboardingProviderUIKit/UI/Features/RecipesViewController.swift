@@ -6,10 +6,10 @@
 //
 
 import UIKit
+// 4a. import Nav
+import MealzNaviOSSDK
 
 // TODO 4. Add Mealz Recipe Details
-// 4a. import Nav
-// 4b. Add Recipe Details in 2nd page
 
 class RecipesViewController: UIViewController, RecipeCardViewDelegate {
     
@@ -75,7 +75,8 @@ class RecipesViewController: UIViewController, RecipeCardViewDelegate {
     }
     
     func didTapSeeDetailsButton(recipeId: String) {
-        let newVC = UIViewController()
+        // 4b. Add Recipe Details in 2nd page
+        let newVC = MealzRecipeDetailsFeatureUIKit(recipeId: recipeId)
         present(newVC, animated: true, completion: nil)
     }
 }
