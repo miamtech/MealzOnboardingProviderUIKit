@@ -26,5 +26,6 @@ class UserSession: ObservableObject {
     func setUser(user: PretendUser?) {
         self.user = user
         // TODO 3e. Call Mealz Function
+        MealzManager.sharedInstance.updateUserId(userId: user?.id)
     }
 }
