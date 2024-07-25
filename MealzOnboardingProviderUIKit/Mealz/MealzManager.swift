@@ -11,8 +11,7 @@ import MarmitonUIMealzIOS
 import UIKit
 
 // TODO: 9. Use Marmiton Components
-// 9a. Create Mealz Config File & Struct
-// 9b. Copy & paste boilerplate for View Options
+
 // 9c. Enter Marmiton Custom Views
 // 9d. Pass View Config to RecipeDetails
 // 9e. Pass View Config to MyBasket

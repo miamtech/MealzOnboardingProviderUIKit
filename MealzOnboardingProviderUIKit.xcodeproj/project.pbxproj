@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		26076E132C524E4F005AD0D9 /* MarmitonUIMealzIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 26076E122C524E4F005AD0D9 /* MarmitonUIMealzIOS */; };
 		26076E162C52518F005AD0D9 /* MealzManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26076E152C52518F005AD0D9 /* MealzManager.swift */; };
+		26076E182C52806F005AD0D9 /* MealzViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26076E172C52806F005AD0D9 /* MealzViewConfig.swift */; };
 		2618946A2C523ABD0076BC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261894692C523ABD0076BC65 /* AppDelegate.swift */; };
 		2618946C2C523ABD0076BC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2618946B2C523ABD0076BC65 /* SceneDelegate.swift */; };
 		261894712C523ABD0076BC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2618946F2C523ABD0076BC65 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		26076E152C52518F005AD0D9 /* MealzManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzManager.swift; sourceTree = "<group>"; };
+		26076E172C52806F005AD0D9 /* MealzViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzViewConfig.swift; sourceTree = "<group>"; };
 		261894662C523ABD0076BC65 /* MealzOnboardingProviderUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealzOnboardingProviderUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261894692C523ABD0076BC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2618946B2C523ABD0076BC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				26076E152C52518F005AD0D9 /* MealzManager.swift */,
+				26076E172C52806F005AD0D9 /* MealzViewConfig.swift */,
 			);
 			path = Mealz;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				26076E162C52518F005AD0D9 /* MealzManager.swift in Sources */,
 				261894872C523B2D0076BC65 /* PretendUserLocalDS.swift in Sources */,
 				2618948E2C523E130076BC65 /* UIImageView.Extension.swift in Sources */,
+				26076E182C52806F005AD0D9 /* MealzViewConfig.swift in Sources */,
 				2618948B2C523D570076BC65 /* RecipeCard.swift in Sources */,
 				261894932C5248F80076BC65 /* BasketViewController.swift in Sources */,
 				2618946A2C523ABD0076BC65 /* AppDelegate.swift in Sources */,
