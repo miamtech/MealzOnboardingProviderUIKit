@@ -10,6 +10,12 @@ import MealzUIiOSSDK
 import MealziOSSDK
 import MealzNaviOSSDK
 
+// TODO: 10. Change Colors, icons, and Localization
+// TODO 10a. Add Mealz Primary Color
+// TODO 10b. Add Mealz Icon
+// TODO 10c. Create Localization File and add text
+// TODO 10d: Register App Bundle
+
 // 9a. Create Mealz Config File & Struct
 struct MealzViewConfig {
     // 9b. Copy & paste boilerplate for View Options
